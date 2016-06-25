@@ -1,4 +1,4 @@
-var createStore = require('minidux')
+var createStore = require('minidux').createStore
 var gameloop = require('gameloop')
 var extend = require('xtend')
 var keyboard = require('./controller-keyboard')()
